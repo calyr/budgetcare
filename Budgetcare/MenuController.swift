@@ -9,7 +9,7 @@
 import UIKit
 
 let menuData: [String] = ["Gastos","Facturas","Ingresos","Presupuesto","Cuentas"]
-let menuDataIcon: [String] = ["gasto.png", "facturas.png", "ingresos.png", "presupuesto.png", "cuentas.png" ]
+let menuDataIcon: [String] = ["gastos.png", "facturas.png", "ingresos.png", "presupuestos.png", "cuentas.png" ]
 
 class MenuController: UITableViewController {
 
@@ -40,15 +40,20 @@ class MenuController: UITableViewController {
         return menuData.count
     }
 
-    /*
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
+        //let cell = tableView.dequeueReusableCellWithIdentifier("Celda", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("Celda", forIndexPath: indexPath) as! MenuViewCell
+        cell.lbMenuTitle.text = menuData[indexPath.row]
+    
+        cell.imgMenuTitle.image = UIImage(named: menuDataIcon[indexPath.row])
+
 
         // Configure the cell...
 
         return cell
     }
-    */
+
 
     /*
     // Override to support conditional editing of the table view.

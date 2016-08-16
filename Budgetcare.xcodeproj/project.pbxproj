@@ -15,6 +15,11 @@
 		33566C8C1D6297B300E1801A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33566C8A1D6297B300E1801A /* LaunchScreen.storyboard */; };
 		33566C941D6298BA00E1801A /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33566C931D6298BA00E1801A /* MenuController.swift */; };
 		33566C961D629C5E00E1801A /* MenuViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33566C951D629C5D00E1801A /* MenuViewCell.swift */; };
+		33566C981D62A83700E1801A /* gastos.png in Resources */ = {isa = PBXBuildFile; fileRef = 33566C971D62A83600E1801A /* gastos.png */; };
+		33566C9D1D62A9AD00E1801A /* facturas.png in Resources */ = {isa = PBXBuildFile; fileRef = 33566C991D62A9AD00E1801A /* facturas.png */; };
+		33566C9E1D62A9AD00E1801A /* ingresos.png in Resources */ = {isa = PBXBuildFile; fileRef = 33566C9A1D62A9AD00E1801A /* ingresos.png */; };
+		33566C9F1D62A9AD00E1801A /* presupuestos.png in Resources */ = {isa = PBXBuildFile; fileRef = 33566C9B1D62A9AD00E1801A /* presupuestos.png */; };
+		33566CA01D62A9AD00E1801A /* cuentas.png in Resources */ = {isa = PBXBuildFile; fileRef = 33566C9C1D62A9AD00E1801A /* cuentas.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		33566C8D1D6297B300E1801A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33566C931D6298BA00E1801A /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		33566C951D629C5D00E1801A /* MenuViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewCell.swift; sourceTree = "<group>"; };
+		33566C971D62A83600E1801A /* gastos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gastos.png; sourceTree = "<group>"; };
+		33566C991D62A9AD00E1801A /* facturas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facturas.png; sourceTree = "<group>"; };
+		33566C9A1D62A9AD00E1801A /* ingresos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ingresos.png; sourceTree = "<group>"; };
+		33566C9B1D62A9AD00E1801A /* presupuestos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = presupuestos.png; sourceTree = "<group>"; };
+		33566C9C1D62A9AD00E1801A /* cuentas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuentas.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +71,12 @@
 			isa = PBXGroup;
 			children = (
 				33566C7E1D6297B200E1801A /* AppDelegate.swift */,
+				33566C971D62A83600E1801A /* gastos.png */,
 				33566C801D6297B200E1801A /* ViewController.swift */,
+				33566C991D62A9AD00E1801A /* facturas.png */,
+				33566C9A1D62A9AD00E1801A /* ingresos.png */,
+				33566C9B1D62A9AD00E1801A /* presupuestos.png */,
+				33566C9C1D62A9AD00E1801A /* cuentas.png */,
 				33566C821D6297B300E1801A /* Main.storyboard */,
 				33566C951D629C5D00E1801A /* MenuViewCell.swift */,
 				33566C931D6298BA00E1801A /* MenuController.swift */,
@@ -132,8 +147,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				33566C8C1D6297B300E1801A /* LaunchScreen.storyboard in Resources */,
+				33566CA01D62A9AD00E1801A /* cuentas.png in Resources */,
 				33566C891D6297B300E1801A /* Assets.xcassets in Resources */,
+				33566C9F1D62A9AD00E1801A /* presupuestos.png in Resources */,
+				33566C9D1D62A9AD00E1801A /* facturas.png in Resources */,
+				33566C981D62A83700E1801A /* gastos.png in Resources */,
 				33566C841D6297B300E1801A /* Main.storyboard in Resources */,
+				33566C9E1D62A9AD00E1801A /* ingresos.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
