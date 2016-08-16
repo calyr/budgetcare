@@ -13,6 +13,8 @@
 		33566C871D6297B300E1801A /* Budgetcare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33566C851D6297B300E1801A /* Budgetcare.xcdatamodeld */; };
 		33566C891D6297B300E1801A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33566C881D6297B300E1801A /* Assets.xcassets */; };
 		33566C8C1D6297B300E1801A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33566C8A1D6297B300E1801A /* LaunchScreen.storyboard */; };
+		33566C941D6298BA00E1801A /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33566C931D6298BA00E1801A /* MenuController.swift */; };
+		33566C961D629C5E00E1801A /* MenuViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33566C951D629C5D00E1801A /* MenuViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		33566C881D6297B300E1801A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33566C8B1D6297B300E1801A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33566C8D1D6297B300E1801A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33566C931D6298BA00E1801A /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		33566C951D629C5D00E1801A /* MenuViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				33566C7E1D6297B200E1801A /* AppDelegate.swift */,
 				33566C801D6297B200E1801A /* ViewController.swift */,
 				33566C821D6297B300E1801A /* Main.storyboard */,
+				33566C951D629C5D00E1801A /* MenuViewCell.swift */,
+				33566C931D6298BA00E1801A /* MenuController.swift */,
 				33566C881D6297B300E1801A /* Assets.xcassets */,
 				33566C8A1D6297B300E1801A /* LaunchScreen.storyboard */,
 				33566C8D1D6297B300E1801A /* Info.plist */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33566C941D6298BA00E1801A /* MenuController.swift in Sources */,
+				33566C961D629C5E00E1801A /* MenuViewCell.swift in Sources */,
 				33566C871D6297B300E1801A /* Budgetcare.xcdatamodeld in Sources */,
 				33566C811D6297B200E1801A /* ViewController.swift in Sources */,
 				33566C7F1D6297B200E1801A /* AppDelegate.swift in Sources */,
